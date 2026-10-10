@@ -55,7 +55,9 @@ new_element = function()
     return function()
       local r = METHOD_RET[k]
       if r ~= nil then return r end
-      if k:match("^New") or k:match("^Add") or k:match("Item$") or k:match("Child$") then return new_element() end
+      if k:match("^New") or k:match("^Add") or k:match("Item$") or k:match("Child$") then
+        local el = new_element(); rawset(el, "Text", {}); return el
+      end
       return nil
     end
   end })

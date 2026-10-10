@@ -64,7 +64,9 @@ local ui = setmetatable({}, { __index = function(_, k)
   return function(_, a, b)
     if k == "Timer" then return new_element() end
     local t = type(b) == "table" and b or (type(a) == "table" and a or {})
-    return t
+    local el = new_element()
+    for kk, vv in pairs(t) do rawset(el, kk, vv) end
+    return el
   end
 end })
 
@@ -80,9 +82,16 @@ end
 local function obj(t) return setmetatable(t, { __index = function() return function() return nil end end }) end
 local folder = obj({ GetClipList = function() return {} end, GetSubFolderList = function() return {} end, GetName = function() return "Master" end })
 local media_pool = obj({ GetRootFolder = function() return folder end, GetCurrentFolder = function() return folder end })
+local timeline = obj({
+  GetName = function() return "Smoke Timeline" end, GetSetting = function(_, k) if k == "timelineFrameRate" then return "25" end; return "" end,
+  GetTrackCount = function() return 1 end, GetItemListInTrack = function() return {} end, GetItemsInTrack = function() return {} end,
+  GetMarkers = function() return {} end, GetStartFrame = function() return 90000 end, GetEndFrame = function() return 90250 end,
+  GetStartTimecode = function() return "01:00:00:00" end, GetCurrentTimecode = function() return "01:00:00:00" end,
+  GetTrackName = function() return "Track 1" end, GetIsTrackEnabled = function() return true end, GetUniqueId = function() return "smoke-tl" end,
+})
 local project = obj({
-  GetName = function() return "Smoke Test" end, GetCurrentTimeline = function() return nil end,
-  GetTimelineCount = function() return 0 end, GetMediaPool = function() return media_pool end,
+  GetName = function() return "Smoke Test" end, GetCurrentTimeline = function() return timeline end,
+  GetTimelineCount = function() return 1 end, GetTimelineByIndex = function() return timeline end, GetMediaPool = function() return media_pool end,
   GetSetting = function() return "" end, GetRenderPresetList = function() return {} end,
   GetRenderJobList = function() return {} end, GetRenderFormats = function() return {} end,
   GetCurrentRenderFormatAndCodec = function() return {} end, IsRenderingInProgress = function() return false end,

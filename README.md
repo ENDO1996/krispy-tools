@@ -1,5 +1,7 @@
 # Krispy Tools for DaVinci Resolve
 
+[![Smoke test (macOS + Windows)](https://github.com/ENDO1996/krispy-tools/actions/workflows/smoke.yml/badge.svg)](https://github.com/ENDO1996/krispy-tools/actions/workflows/smoke.yml)
+
 Free, open-source Lua scripts that take the repetitive parts out of editing in **DaVinci Resolve Studio**: subtitles and captions in every language, finding changes between two versions, rendering marker ranges, batch timeline jobs and more.
 
 Every tool has a short demo video and real screenshots at **[shop.krispytools.com](https://shop.krispytools.com)**.

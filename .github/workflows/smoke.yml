@@ -1,0 +1,27 @@
+name: Smoke test (macOS + Windows)
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  smoke:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ilammy/msvc-dev-cmd@v1
+        if: runner.os == 'Windows'
+      - uses: leafo/gh-actions-lua@v11
+        with:
+          luaVersion: luajit-openresty
+      - name: Load every tool and fire every handler
+        shell: bash
+        run: |
+          status=0
+          while IFS= read -r -d '' f; do
+            luajit tests/smoke.lua "$f" || status=1
+          done < <(find tools -name '*.lua' -print0 | sort -z)
+          exit $status

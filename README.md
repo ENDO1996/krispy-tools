@@ -6,27 +6,61 @@ Free, open-source tools that take the repetitive parts out of editing in **DaVin
 
 Every tool has a short demo video and real screenshots at **[resolve.krispytools.com](https://resolve.krispytools.com)**.
 
+
 Made by Kristaps Prūsis, a video editor in Latvia, for his own work, and shared because they might save you time too.
 
-## Tools
+## All tools at a glance
 
-**Bundles:** [Resolve Text Toolkit (5 tools in 1)](#resolve-text-toolkit-5-tools-in-1) · [Resolve Automator (5 tools in 1)](#resolve-automator-5-tools-in-1)
+Click a name for its section further down, with a screenshot, what it does and the download.
 
-**Captions and subtitles:** [Caption Titler](#caption-titler) · [SRT Replacer](#srt-replacer) · [Font Changer](#font-changer) · [Template Duplicator](#template-duplicator) · [Subtitle Creator](#subtitle-creator)
+### Bundles
 
-**Automation:** [Video Difference Marker](#video-difference-marker) · [Marker Range Render Queue](#marker-range-render-queue) · [Comments to Resolve Markers](#comments-to-resolve-markers) · [Batch Export](#batch-export) · [Timeline Renamer](#timeline-renamer) · [Marker Insert](#marker-insert) · [Track Overlay](#track-overlay) · [Marker Screenshots](#marker-screenshots)
+5 tools in 1: one window with 5 pages instead of 5 separate tools to install and open. Each tool inside is also available on its own.
 
-**Utilities:** [YouTube Chapter Exporter](#youtube-chapter-exporter) · [Resolve Page Time Tracker](#resolve-page-time-tracker)
+| Tool | What it does | Demo | Download |
+|---|---|---|---|
+| [Resolve Automator (5 tools in 1)](#resolve-automator-5-tools-in-1) | Timeline Renamer, Marker Screenshots, Marker Insert, Track Overlay and Batch Export in one window. | [Video](https://resolve.krispytools.com/tools/resolve-automator/) | [`Resolve Automator.lua`](tools/Bundles/Resolve%20Automator.lua) |
+| [Resolve Text Toolkit (5 tools in 1)](#resolve-text-toolkit-5-tools-in-1) | Caption Titler, SRT Replacer, Font Changer, Template Duplicator and Subtitle Creator in one window. | [Video](https://resolve.krispytools.com/tools/resolve-text-toolkit/) | [`Resolve Text Toolkit.lua`](tools/Bundles/Resolve%20Text%20Toolkit.lua) |
 
-## Bundles
+### Text
 
-5 tools in 1: one window with 5 pages instead of 5 separate tools to install and open. Every tool inside is also available on its own below.
+| Tool | What it does | Demo | Download |
+|---|---|---|---|
+| [Caption Titler](#caption-titler) | Build styled, animated Text+ captions from subtitles using your own title template. | [YouTube](https://youtu.be/AJtufTwBprc) | [`Caption Titler.lua`](tools/Text/Caption%20Titler.lua) |
+| [Font Changer](#font-changer) | Change the font on every Text+ clip in one click. | [YouTube](https://youtu.be/njY6Przz3rk) | [`Font Changer.lua`](tools/Text/Font%20Changer.lua) |
+| [SRT Replacer](#srt-replacer) | Swap your captions to another language from an SRT, keeping style and timing. | [YouTube](https://youtu.be/G_YipSFSRSs) | [`SRT Replacer.lua`](tools/Text/SRT%20Replacer.lua) |
+| [Subtitle Creator](#subtitle-creator) | Turn Text+ clips into a real Resolve subtitle track and an SRT file. | [YouTube](https://youtu.be/zyH0rNLEiVQ) | [`Subtitle Creator.lua`](tools/Text/Subtitle%20Creator.lua) |
+| [Template Duplicator](#template-duplicator) | Move every caption onto another title template, keeping text and timing. | [YouTube](https://youtu.be/NIXifq0zRBc) | [`Template Duplicator.lua`](tools/Text/Template%20Duplicator.lua) |
+
+### Automation
+
+| Tool | What it does | Demo | Download |
+|---|---|---|---|
+| [Comments to Resolve Markers](#comments-to-resolve-markers) | Paste review notes from anywhere and turn them into Resolve timeline markers. | [YouTube](https://youtu.be/rFFb3p3x3r8) | [`Comments to Resolve Markers.lua`](tools/Utilities/Comments%20to%20Resolve%20Markers.lua) |
+| [Batch Export](#batch-export) | Queue many timelines for render with one preset and one output folder. | [YouTube](https://youtu.be/164dyAUp2Qg) | [`Batch Export.lua`](tools/Automation/Batch%20Export.lua) |
+| [Marker Insert](#marker-insert) | Drop the same clip at every marker: a whoosh, a title, a graphic or a video. | [Video](https://resolve.krispytools.com/tools/marker-insert/) | [`Marker Insert.lua`](tools/Automation/Marker%20Insert.lua) |
+| [Marker Range Render Queue](#marker-range-render-queue) | Turn timeline marker ranges into named Deliver-page render jobs. | [YouTube](https://youtu.be/Y5H6EdyOCh4) | [`Marker Range Render Queue.lua`](tools/Automation/Marker%20Range%20Render%20Queue.lua) |
+| [Marker Screenshots](#marker-screenshots) | Save a still at every marker of one colour, named after the marker. | [Video](https://resolve.krispytools.com/tools/marker-screenshots/) | [`Marker Screenshots.lua`](tools/Automation/Marker%20Screenshots.lua) |
+| [Timeline Renamer](#timeline-renamer) | Duplicate or rename many Resolve timelines at once with find and replace. | [YouTube](https://youtu.be/2HFc1IR6s3k) | [`Timeline Renamer.lua`](tools/Automation/Timeline%20Renamer.lua) |
+| [Track Overlay](#track-overlay) | Cover every clip on a track with a template clip, cut for cut. | [Video](https://resolve.krispytools.com/tools/track-overlay/) | [`Track Overlay.lua`](tools/Automation/Track%20Overlay.lua) |
+| [Video Difference Marker](#video-difference-marker) | Compare two video versions and add Resolve markers where visual changes occur. | [Video](https://resolve.krispytools.com/tools/video-difference-marker/) | [`Video Difference Marker.lua`](tools/Automation/Video%20Difference%20Marker.lua) |
+
+### Utilities
+
+| Tool | What it does | Demo | Download |
+|---|---|---|---|
+| [Resolve Page Time Tracker](#resolve-page-time-tracker) | Track active editing time by Resolve page, session, and project. | [Video](https://resolve.krispytools.com/tools/resolve-page-time-tracker/) | [`Resolve Page Time Tracker.lua`](tools/Utilities/Resolve%20Page%20Time%20Tracker.lua) |
+| [YouTube Chapter Exporter](#youtube-chapter-exporter) | Turn Resolve timeline markers into a ready-to-paste YouTube chapter list. | [YouTube](https://youtu.be/TniY1OCkV7o) | [`YouTube Chapter Exporter.lua`](tools/Utilities/YouTube%20Chapter%20Exporter.lua) |
+
+## Tool by tool
+
+---
 
 ### Resolve Text Toolkit (5 tools in 1)
 
-5 tools in 1: Caption Titler, SRT Replacer, Font Changer, Template Duplicator and Subtitle Creator in one window with 5 pages.
+**Bundles** · 5 tools in 1: Caption Titler, SRT Replacer, Font Changer, Template Duplicator and Subtitle Creator in one window with 5 pages.
 
-<img src="docs/images/resolve-text-toolkit.jpg" alt="Resolve Text Toolkit (5 tools in 1) in DaVinci Resolve" width="720">
+<img src="docs/images/resolve-text-toolkit.jpg" alt="Resolve Text Toolkit (5 tools in 1) running in DaVinci Resolve Studio">
 
 - Subtitle Creator turns rough Text+ clips into a real subtitle track and an SRT for YouTube.
 - Caption Titler builds styled Text+ captions from subtitles using your own Fusion template, one clip per line.
@@ -34,13 +68,15 @@ Made by Kristaps Prūsis, a video editor in Latvia, for his own work, and shared
 - Font Changer switches every caption to another font in one go, for languages like Japanese.
 - Template Duplicator moves every caption onto a new template without retyping.
 
-[▶ Demo video](https://resolve.krispytools.com/tools/resolve-text-toolkit/) · [⬇ Resolve Text Toolkit.lua](tools/Bundles/Resolve%20Text%20Toolkit.lua) · [Tool page](https://resolve.krispytools.com/tools/resolve-text-toolkit/)
+[▶ Watch the demo](https://resolve.krispytools.com/tools/resolve-text-toolkit/) · [⬇ Download Resolve Text Toolkit.lua](tools/Bundles/Resolve%20Text%20Toolkit.lua) · [Tool page](https://resolve.krispytools.com/tools/resolve-text-toolkit/)
+
+---
 
 ### Resolve Automator (5 tools in 1)
 
-5 tools in 1: Timeline Renamer, Marker Screenshots, Marker Insert, Track Overlay and Batch Export in one window with 5 pages.
+**Bundles** · 5 tools in 1: Timeline Renamer, Marker Screenshots, Marker Insert, Track Overlay and Batch Export in one window with 5 pages.
 
-<img src="docs/images/resolve-automator.jpg" alt="Resolve Automator (5 tools in 1) in DaVinci Resolve" width="720">
+<img src="docs/images/resolve-automator.jpg" alt="Resolve Automator (5 tools in 1) running in DaVinci Resolve Studio">
 
 - Timeline Renamer: duplicate or rename many timelines with find and replace.
 - Marker Screenshots: export a still at every marker, named after the marker.
@@ -48,193 +84,219 @@ Made by Kristaps Prūsis, a video editor in Latvia, for his own work, and shared
 - Track Overlay: put an adjustment clip, graphic or sound over every shot, cut for cut.
 - Batch Export: queue many timelines with one render preset.
 
-[▶ Demo video](https://resolve.krispytools.com/tools/resolve-automator/) · [⬇ Resolve Automator.lua](tools/Bundles/Resolve%20Automator.lua) · [Tool page](https://resolve.krispytools.com/tools/resolve-automator/)
+[▶ Watch the demo](https://resolve.krispytools.com/tools/resolve-automator/) · [⬇ Download Resolve Automator.lua](tools/Bundles/Resolve%20Automator.lua) · [Tool page](https://resolve.krispytools.com/tools/resolve-automator/)
 
-## Captions and subtitles
+---
 
 ### Caption Titler
 
-Build styled, animated Text+ captions from subtitles using your own title template.
+**Text** · Build styled, animated Text+ captions from subtitles using your own title template.
 
-<img src="docs/images/caption-titler.jpg" alt="Caption Titler in DaVinci Resolve" width="720">
+<img src="docs/images/caption-titler.jpg" alt="Caption Titler running in DaVinci Resolve Studio">
 
 - Styled, animated captions for social, from any subtitle file.
 - Uses your own Fusion title template, so every caption matches your look.
 - One Text+ clip per line, timed to the frame.
 
-[▶ Demo on YouTube](https://youtu.be/AJtufTwBprc) · [⬇ Caption Titler.lua](tools/Text/Caption%20Titler.lua) · [Tool page](https://resolve.krispytools.com/tools/caption-titler/)
+[▶ Watch the demo](https://youtu.be/AJtufTwBprc) · [⬇ Download Caption Titler.lua](tools/Text/Caption%20Titler.lua) · [Tool page](https://resolve.krispytools.com/tools/caption-titler/)
+
+---
 
 ### SRT Replacer
 
-Swap your captions to another language from an SRT, keeping style and timing.
+**Text** · Swap your captions to another language from an SRT, keeping style and timing.
 
-<img src="docs/images/srt-replacer.jpg" alt="SRT Replacer in DaVinci Resolve" width="720">
+<img src="docs/images/srt-replacer.jpg" alt="SRT Replacer running in DaVinci Resolve Studio">
 
 - A German, Spanish or Japanese version without retyping a caption.
 - Style, animation and timing stay as they are; only the words change.
 - Dry Run shows exactly how many clips will change first.
 
-[▶ Demo on YouTube](https://youtu.be/G_YipSFSRSs) · [⬇ SRT Replacer.lua](tools/Text/SRT%20Replacer.lua) · [Tool page](https://resolve.krispytools.com/tools/srt-replacer/)
+[▶ Watch the demo](https://youtu.be/G_YipSFSRSs) · [⬇ Download SRT Replacer.lua](tools/Text/SRT%20Replacer.lua) · [Tool page](https://resolve.krispytools.com/tools/srt-replacer/)
+
+---
 
 ### Font Changer
 
-Change the font on every Text+ clip in one click.
+**Text** · Change the font on every Text+ clip in one click.
 
-<img src="docs/images/font-changer.jpg" alt="Font Changer in DaVinci Resolve" width="720">
+<img src="docs/images/font-changer.jpg" alt="Font Changer running in DaVinci Resolve Studio">
 
 - Every caption to a new font in one click.
 - Fixes the empty boxes you get when a Latin font meets Japanese text.
 - Change only the clips that match an SRT, if you need to.
 
-[▶ Demo on YouTube](https://youtu.be/njY6Przz3rk) · [⬇ Font Changer.lua](tools/Text/Font%20Changer.lua) · [Tool page](https://resolve.krispytools.com/tools/font-changer/)
+[▶ Watch the demo](https://youtu.be/njY6Przz3rk) · [⬇ Download Font Changer.lua](tools/Text/Font%20Changer.lua) · [Tool page](https://resolve.krispytools.com/tools/font-changer/)
+
+---
 
 ### Template Duplicator
 
-Move every caption onto another title template, keeping text and timing.
+**Text** · Move every caption onto another title template, keeping text and timing.
 
-<img src="docs/images/template-duplicator.jpg" alt="Template Duplicator in DaVinci Resolve" width="720">
+<img src="docs/images/template-duplicator.jpg" alt="Template Duplicator running in DaVinci Resolve Studio">
 
 - A new look for every caption without retyping or retiming anything.
 - Original clips stay as they are, the new ones go on tracks above.
 - Works with any Fusion title template in your Media Pool.
 
-[▶ Demo on YouTube](https://youtu.be/NIXifq0zRBc) · [⬇ Template Duplicator.lua](tools/Text/Template%20Duplicator.lua) · [Tool page](https://resolve.krispytools.com/tools/template-duplicator/)
+[▶ Watch the demo](https://youtu.be/NIXifq0zRBc) · [⬇ Download Template Duplicator.lua](tools/Text/Template%20Duplicator.lua) · [Tool page](https://resolve.krispytools.com/tools/template-duplicator/)
+
+---
 
 ### Subtitle Creator
 
-Turn Text+ clips into a real Resolve subtitle track and an SRT file.
+**Text** · Turn Text+ clips into a real Resolve subtitle track and an SRT file.
 
-<img src="docs/images/subtitle-creator.jpg" alt="Subtitle Creator in DaVinci Resolve" width="720">
+<img src="docs/images/subtitle-creator.jpg" alt="Subtitle Creator running in DaVinci Resolve Studio">
 
 - Turns the Text+ clips you already typed into a real subtitle track.
 - Saves an SRT file for YouTube, Vimeo or a client.
 - Timing is taken from the clips, frame accurate.
 
-[▶ Demo on YouTube](https://youtu.be/zyH0rNLEiVQ) · [⬇ Subtitle Creator.lua](tools/Text/Subtitle%20Creator.lua) · [Tool page](https://resolve.krispytools.com/tools/subtitle-creator/)
+[▶ Watch the demo](https://youtu.be/zyH0rNLEiVQ) · [⬇ Download Subtitle Creator.lua](tools/Text/Subtitle%20Creator.lua) · [Tool page](https://resolve.krispytools.com/tools/subtitle-creator/)
 
-## Automation
+---
 
 ### Video Difference Marker
 
-Compare two video versions and add Resolve markers where visual changes occur.
+**Automation** · Compare two video versions and add Resolve markers where visual changes occur.
 
-<img src="docs/images/video-difference-marker.jpg" alt="Video Difference Marker in DaVinci Resolve" width="720">
+<img src="docs/images/video-difference-marker.jpg" alt="Video Difference Marker running in DaVinci Resolve Studio">
 
 - Stack two versions of a cut and get a marker on every visual change.
 - Finds swapped shots, regrades, added text and logos; identical stretches get no marker.
 - Two-pass scan: a fast pass finds changed ranges, a frame-accurate pass places the markers.
 
-[▶ Demo video](https://resolve.krispytools.com/tools/video-difference-marker/) · [⬇ Video Difference Marker.lua](tools/Automation/Video%20Difference%20Marker.lua) · [Tool page](https://resolve.krispytools.com/tools/video-difference-marker/)
+[▶ Watch the demo](https://resolve.krispytools.com/tools/video-difference-marker/) · [⬇ Download Video Difference Marker.lua](tools/Automation/Video%20Difference%20Marker.lua) · [Tool page](https://resolve.krispytools.com/tools/video-difference-marker/)
+
+---
 
 ### Marker Range Render Queue
 
-Turn timeline marker ranges into named Deliver-page render jobs.
+**Automation** · Turn timeline marker ranges into named Deliver-page render jobs.
 
-<img src="docs/images/marker-range-render-queue.jpg" alt="Marker Range Render Queue in DaVinci Resolve" width="720">
+<img src="docs/images/marker-range-render-queue.jpg" alt="Marker Range Render Queue running in DaVinci Resolve Studio">
 
 - Every duration marker becomes its own render job, named after the marker.
 - Filter by marker colour, keep your render preset and output folder.
 - Re-run after a revision instead of setting In/Out and file names by hand.
 
-[▶ Demo on YouTube](https://youtu.be/Y5H6EdyOCh4) · [⬇ Marker Range Render Queue.lua](tools/Automation/Marker%20Range%20Render%20Queue.lua) · [Tool page](https://resolve.krispytools.com/tools/marker-range-render-queue/)
+[▶ Watch the demo](https://youtu.be/Y5H6EdyOCh4) · [⬇ Download Marker Range Render Queue.lua](tools/Automation/Marker%20Range%20Render%20Queue.lua) · [Tool page](https://resolve.krispytools.com/tools/marker-range-render-queue/)
+
+---
 
 ### Comments to Resolve Markers
 
-Paste review notes from anywhere and turn them into Resolve timeline markers.
+**Automation** · Paste review notes from anywhere and turn them into Resolve timeline markers.
 
-<img src="docs/images/comments-to-resolve-markers.jpg" alt="Comments to Resolve Markers in DaVinci Resolve" width="720">
+<img src="docs/images/comments-to-resolve-markers.jpg" alt="Comments to Resolve Markers running in DaVinci Resolve Studio">
 
 - Paste notes from email, docs, YouTube, Frame.io or a CSV and get one marker per note.
 - Understands 0:39, [0:39], 00:00:39:12, 1m20s, ranges and comments that wrap onto the next line.
 - Preview exactly where each note lands before adding.
 
-[▶ Demo on YouTube](https://youtu.be/rFFb3p3x3r8) · [⬇ Comments to Resolve Markers.lua](tools/Utilities/Comments%20to%20Resolve%20Markers.lua) · [Tool page](https://resolve.krispytools.com/tools/comments-to-resolve-markers/)
+[▶ Watch the demo](https://youtu.be/rFFb3p3x3r8) · [⬇ Download Comments to Resolve Markers.lua](tools/Utilities/Comments%20to%20Resolve%20Markers.lua) · [Tool page](https://resolve.krispytools.com/tools/comments-to-resolve-markers/)
+
+---
 
 ### Batch Export
 
-Queue many timelines for render with one preset and one output folder.
+**Automation** · Queue many timelines for render with one preset and one output folder.
 
-<img src="docs/images/batch-export.jpg" alt="Batch Export in DaVinci Resolve" width="720">
+<img src="docs/images/batch-export.jpg" alt="Batch Export running in DaVinci Resolve Studio">
 
 - Queue dozens of timelines in one click.
 - Uses your own saved render preset, so the settings are always right.
 - Each file is named after its timeline.
 
-[▶ Demo on YouTube](https://youtu.be/164dyAUp2Qg) · [⬇ Batch Export.lua](tools/Automation/Batch%20Export.lua) · [Tool page](https://resolve.krispytools.com/tools/batch-export/)
+[▶ Watch the demo](https://youtu.be/164dyAUp2Qg) · [⬇ Download Batch Export.lua](tools/Automation/Batch%20Export.lua) · [Tool page](https://resolve.krispytools.com/tools/batch-export/)
+
+---
 
 ### Timeline Renamer
 
-Duplicate or rename many Resolve timelines at once with find and replace.
+**Automation** · Duplicate or rename many Resolve timelines at once with find and replace.
 
-<img src="docs/images/timeline-renamer.jpg" alt="Timeline Renamer in DaVinci Resolve" width="720">
+<img src="docs/images/timeline-renamer.jpg" alt="Timeline Renamer running in DaVinci Resolve Studio">
 
 - Find and replace in the names of many timelines at once.
 - Duplicate mode makes one copy per entry: v2, Client Review, 9x16, Final.
 - Preview every new name before anything changes.
 
-[▶ Demo on YouTube](https://youtu.be/2HFc1IR6s3k) · [⬇ Timeline Renamer.lua](tools/Automation/Timeline%20Renamer.lua) · [Tool page](https://resolve.krispytools.com/tools/timeline-renamer/)
+[▶ Watch the demo](https://youtu.be/2HFc1IR6s3k) · [⬇ Download Timeline Renamer.lua](tools/Automation/Timeline%20Renamer.lua) · [Tool page](https://resolve.krispytools.com/tools/timeline-renamer/)
+
+---
 
 ### Marker Insert
 
-Drop the same clip at every marker: a whoosh, a title, a graphic or a video.
+**Automation** · Drop the same clip at every marker: a whoosh, a title, a graphic or a video.
 
-<img src="docs/images/marker-insert.jpg" alt="Marker Insert in DaVinci Resolve" width="720">
+<img src="docs/images/marker-insert.jpg" alt="Marker Insert running in DaVinci Resolve Studio">
 
 - Place a sound effect, title, graphic or video at every marker.
 - A frame offset lets the clip land a few frames before or after each marker.
 - Always uses a new track, so your edit stays as it is.
 
-[▶ Demo video](https://resolve.krispytools.com/tools/marker-insert/) · [⬇ Marker Insert.lua](tools/Automation/Marker%20Insert.lua) · [Tool page](https://resolve.krispytools.com/tools/marker-insert/)
+[▶ Watch the demo](https://resolve.krispytools.com/tools/marker-insert/) · [⬇ Download Marker Insert.lua](tools/Automation/Marker%20Insert.lua) · [Tool page](https://resolve.krispytools.com/tools/marker-insert/)
+
+---
 
 ### Track Overlay
 
-Cover every clip on a track with a template clip, cut for cut.
+**Automation** · Cover every clip on a track with a template clip, cut for cut.
 
-<img src="docs/images/track-overlay.jpg" alt="Track Overlay in DaVinci Resolve" width="720">
+<img src="docs/images/track-overlay.jpg" alt="Track Overlay running in DaVinci Resolve Studio">
 
 - An adjustment clip above every shot, ready for a per-shot grade, zoom or effect.
 - Also works with graphics, video and audio, like a frame overlay or a whoosh on every cut.
 - Dry Run lists exactly what will be placed before anything changes.
 
-[▶ Demo video](https://resolve.krispytools.com/tools/track-overlay/) · [⬇ Track Overlay.lua](tools/Automation/Track%20Overlay.lua) · [Tool page](https://resolve.krispytools.com/tools/track-overlay/)
+[▶ Watch the demo](https://resolve.krispytools.com/tools/track-overlay/) · [⬇ Download Track Overlay.lua](tools/Automation/Track%20Overlay.lua) · [Tool page](https://resolve.krispytools.com/tools/track-overlay/)
+
+---
 
 ### Marker Screenshots
 
-Save a still at every marker of one colour, named after the marker.
+**Automation** · Save a still at every marker of one colour, named after the marker.
 
-<img src="docs/images/marker-screenshots.jpg" alt="Marker Screenshots in DaVinci Resolve" width="720">
+<img src="docs/images/marker-screenshots.jpg" alt="Marker Screenshots running in DaVinci Resolve Studio">
 
 - One JPEG at every marker, named after the marker.
 - Filter by marker colour so only the frames you want are saved.
 - Review stills, thumbnails and chapter images in seconds.
 
-[▶ Demo video](https://resolve.krispytools.com/tools/marker-screenshots/) · [⬇ Marker Screenshots.lua](tools/Automation/Marker%20Screenshots.lua) · [Tool page](https://resolve.krispytools.com/tools/marker-screenshots/)
+[▶ Watch the demo](https://resolve.krispytools.com/tools/marker-screenshots/) · [⬇ Download Marker Screenshots.lua](tools/Automation/Marker%20Screenshots.lua) · [Tool page](https://resolve.krispytools.com/tools/marker-screenshots/)
 
-## Utilities
+---
 
 ### YouTube Chapter Exporter
 
-Turn Resolve timeline markers into a ready-to-paste YouTube chapter list.
+**Utilities** · Turn Resolve timeline markers into a ready-to-paste YouTube chapter list.
 
-<img src="docs/images/youtube-chapter-exporter.jpg" alt="YouTube Chapter Exporter in DaVinci Resolve" width="720">
+<img src="docs/images/youtube-chapter-exporter.jpg" alt="YouTube Chapter Exporter running in DaVinci Resolve Studio">
 
 - Turns your chapter markers into a YouTube-ready chapter list.
 - Filter by marker colour so your own notes stay out.
 - Adds the 0:00 intro line YouTube needs and saves a .txt file.
 
-[▶ Demo on YouTube](https://youtu.be/TniY1OCkV7o) · [⬇ YouTube Chapter Exporter.lua](tools/Utilities/YouTube%20Chapter%20Exporter.lua) · [Tool page](https://resolve.krispytools.com/tools/youtube-chapter-exporter/)
+[▶ Watch the demo](https://youtu.be/TniY1OCkV7o) · [⬇ Download YouTube Chapter Exporter.lua](tools/Utilities/YouTube%20Chapter%20Exporter.lua) · [Tool page](https://resolve.krispytools.com/tools/youtube-chapter-exporter/)
+
+---
 
 ### Resolve Page Time Tracker
 
-Track active editing time by Resolve page, session, and project.
+**Utilities** · Track active editing time by Resolve page, session, and project.
 
-<img src="docs/images/resolve-page-time-tracker.jpg" alt="Resolve Page Time Tracker in DaVinci Resolve" width="720">
+<img src="docs/images/resolve-page-time-tracker.jpg" alt="Resolve Page Time Tracker running in DaVinci Resolve Studio">
 
 - Tracks how long you spend on each page: Edit, Color, Fairlight, Deliver.
 - Pauses by itself when you are away and resumes when you are back.
 - Per-project totals and CSV export for invoices; all data stays on your computer.
 
-[▶ Demo video](https://resolve.krispytools.com/tools/resolve-page-time-tracker/) · [⬇ Resolve Page Time Tracker.lua](tools/Utilities/Resolve%20Page%20Time%20Tracker.lua) · [Tool page](https://resolve.krispytools.com/tools/resolve-page-time-tracker/)
+[▶ Watch the demo](https://resolve.krispytools.com/tools/resolve-page-time-tracker/) · [⬇ Download Resolve Page Time Tracker.lua](tools/Utilities/Resolve%20Page%20Time%20Tracker.lua) · [Tool page](https://resolve.krispytools.com/tools/resolve-page-time-tracker/)
+
+---
 
 ## Install
 

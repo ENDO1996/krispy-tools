@@ -60,7 +60,7 @@ Click a name for its section further down, with a demo video, what it does and t
 
 **Bundles** · 5 tools in 1: Caption Titler, SRT Replacer, Font Changer, Template Duplicator and Subtitle Creator in one window with 5 pages.
 
-https://github.com/user-attachments/assets/5e90a8d5-c96c-4dad-bdf0-897b4af8201b
+https://github.com/user-attachments/assets/5c86c193-3c74-4a0d-92f3-e1fbf44b0fda
 
 - Subtitle Creator turns rough Text+ clips into a real subtitle track and an SRT for YouTube.
 - Caption Titler builds styled Text+ captions from subtitles using your own Fusion template, one clip per line.
@@ -76,7 +76,7 @@ https://github.com/user-attachments/assets/5e90a8d5-c96c-4dad-bdf0-897b4af8201b
 
 **Bundles** · 5 tools in 1: Timeline Renamer, Marker Screenshots, Marker Insert, Track Overlay and Batch Export in one window with 5 pages.
 
-https://github.com/user-attachments/assets/4fecc945-bb92-4eea-8767-0a92bf00c569
+https://github.com/user-attachments/assets/e76b0a9a-35ee-4c41-a6fe-591787c5e7f4
 
 - Timeline Renamer: duplicate or rename many timelines with find and replace.
 - Marker Screenshots: export a still at every marker, named after the marker.
@@ -92,7 +92,7 @@ https://github.com/user-attachments/assets/4fecc945-bb92-4eea-8767-0a92bf00c569
 
 **Text** · Build styled, animated Text+ captions from subtitles using your own title template.
 
-https://github.com/user-attachments/assets/b8baf1c0-d371-4de6-b750-5622b90dab1c
+https://github.com/user-attachments/assets/1ea761b1-b398-48e4-9a87-5b7c1c134d08
 
 - Styled, animated captions for social, from any subtitle file.
 - Uses your own Fusion title template, so every caption matches your look.
@@ -106,7 +106,7 @@ https://github.com/user-attachments/assets/b8baf1c0-d371-4de6-b750-5622b90dab1c
 
 **Text** · Swap your captions to another language from an SRT, keeping style and timing.
 
-https://github.com/user-attachments/assets/18c0109a-e733-4f62-addd-41ca577e4c74
+https://github.com/user-attachments/assets/1441e525-e0ff-4025-be3c-16865cf42dfa
 
 - A German, Spanish or Japanese version without retyping a caption.
 - Style, animation and timing stay as they are; only the words change.
@@ -120,7 +120,7 @@ https://github.com/user-attachments/assets/18c0109a-e733-4f62-addd-41ca577e4c74
 
 **Text** · Change the font on every Text+ clip in one click.
 
-https://github.com/user-attachments/assets/b4009a56-633d-4c05-8ba1-14ffd3576836
+https://github.com/user-attachments/assets/67083541-0c32-45df-88d7-3cc5f650909e
 
 - Every caption to a new font in one click.
 - Fixes the empty boxes you get when a Latin font meets Japanese text.
@@ -134,7 +134,7 @@ https://github.com/user-attachments/assets/b4009a56-633d-4c05-8ba1-14ffd3576836
 
 **Text** · Move every caption onto another title template, keeping text and timing.
 
-https://github.com/user-attachments/assets/f948dc68-411f-4d5d-8bfe-cada4c1eac52
+https://github.com/user-attachments/assets/360b72e1-85be-4131-87f2-1e9ccd67f7e8
 
 - A new look for every caption without retyping or retiming anything.
 - Original clips stay as they are, the new ones go on tracks above.
@@ -148,7 +148,7 @@ https://github.com/user-attachments/assets/f948dc68-411f-4d5d-8bfe-cada4c1eac52
 
 **Text** · Turn Text+ clips into a real Resolve subtitle track and an SRT file.
 
-https://github.com/user-attachments/assets/cebdf160-64f7-4bf9-9343-6332f874712a
+https://github.com/user-attachments/assets/d9e14e79-9901-4c4d-9dde-2ab2f2349a95
 
 - Turns the Text+ clips you already typed into a real subtitle track.
 - Saves an SRT file for YouTube, Vimeo or a client.
@@ -162,7 +162,7 @@ https://github.com/user-attachments/assets/cebdf160-64f7-4bf9-9343-6332f874712a
 
 **Automation** · Compare two video versions and add Resolve markers where visual changes occur.
 
-https://github.com/user-attachments/assets/daac5b53-de88-495b-b9da-5a5fd5643684
+https://github.com/user-attachments/assets/2f715fb4-0b7a-4ce4-88bf-5ea9cf542261
 
 - Stack two versions of a cut and get a marker on every visual change.
 - Finds swapped shots, regrades, added text and logos; identical stretches get no marker.
@@ -176,7 +176,7 @@ https://github.com/user-attachments/assets/daac5b53-de88-495b-b9da-5a5fd5643684
 
 **Automation** · Turn timeline marker ranges into named Deliver-page render jobs.
 
-https://github.com/user-attachments/assets/8f93e20c-411d-4ed2-8508-1d7c03ff2022
+https://github.com/user-attachments/assets/65995873-4978-4d7f-b3ce-cade7425c5fb
 
 - Every duration marker becomes its own render job, named after the marker.
 - Filter by marker colour, keep your render preset and output folder.
@@ -190,7 +190,7 @@ https://github.com/user-attachments/assets/8f93e20c-411d-4ed2-8508-1d7c03ff2022
 
 **Automation** · Paste review notes from anywhere and turn them into Resolve timeline markers.
 
-https://github.com/user-attachments/assets/bb40a57c-90d6-4a7c-89cb-f7cd04e0305d
+https://github.com/user-attachments/assets/6b9ede4a-9cd4-4594-b4ef-3e06f609e919
 
 - Paste notes from email, docs, YouTube, Frame.io or a CSV and get one marker per note.
 - Understands 0:39, [0:39], 00:00:39:12, 1m20s, ranges and comments that wrap onto the next line.
@@ -204,7 +204,7 @@ https://github.com/user-attachments/assets/bb40a57c-90d6-4a7c-89cb-f7cd04e0305d
 
 **Automation** · Queue many timelines for render with one preset and one output folder.
 
-https://github.com/user-attachments/assets/431ff680-1515-4216-af74-d0003a7d2cdd
+https://github.com/user-attachments/assets/64bb0a02-86c3-4227-b812-c886ed9c5248
 
 - Queue dozens of timelines in one click.
 - Uses your own saved render preset, so the settings are always right.
@@ -218,7 +218,7 @@ https://github.com/user-attachments/assets/431ff680-1515-4216-af74-d0003a7d2cdd
 
 **Automation** · Duplicate or rename many Resolve timelines at once with find and replace.
 
-https://github.com/user-attachments/assets/12d0d2f0-8fb8-4edc-bebd-cc733e2f6d8f
+https://github.com/user-attachments/assets/6dde8b88-d98b-4814-ab84-f4ef28a285c6
 
 - Find and replace in the names of many timelines at once.
 - Duplicate mode makes one copy per entry: v2, Client Review, 9x16, Final.
@@ -232,7 +232,7 @@ https://github.com/user-attachments/assets/12d0d2f0-8fb8-4edc-bebd-cc733e2f6d8f
 
 **Automation** · Drop the same clip at every marker: a whoosh, a title, a graphic or a video.
 
-https://github.com/user-attachments/assets/ceb9c797-d910-4f88-83bc-b27cfa438486
+https://github.com/user-attachments/assets/4dda83aa-633a-4bd4-87b5-fa303a5e1b8b
 
 - Place a sound effect, title, graphic or video at every marker.
 - A frame offset lets the clip land a few frames before or after each marker.
@@ -246,7 +246,7 @@ https://github.com/user-attachments/assets/ceb9c797-d910-4f88-83bc-b27cfa438486
 
 **Automation** · Cover every clip on a track with a template clip, cut for cut.
 
-https://github.com/user-attachments/assets/5d1aee1f-413e-4368-a41c-ed3c4a79b0b6
+https://github.com/user-attachments/assets/dcd051a4-8452-4f83-bfd1-d2fb1d74091d
 
 - An adjustment clip above every shot, ready for a per-shot grade, zoom or effect.
 - Also works with graphics, video and audio, like a frame overlay or a whoosh on every cut.
@@ -260,7 +260,7 @@ https://github.com/user-attachments/assets/5d1aee1f-413e-4368-a41c-ed3c4a79b0b6
 
 **Automation** · Save a still at every marker of one colour, named after the marker.
 
-https://github.com/user-attachments/assets/cc3f5cb8-8d8d-4765-bc69-d68e824a8748
+https://github.com/user-attachments/assets/2c81e018-5318-4e06-b52b-d86fe0a1f986
 
 - One JPEG at every marker, named after the marker.
 - Filter by marker colour so only the frames you want are saved.
@@ -274,7 +274,7 @@ https://github.com/user-attachments/assets/cc3f5cb8-8d8d-4765-bc69-d68e824a8748
 
 **Utilities** · Turn Resolve timeline markers into a ready-to-paste YouTube chapter list.
 
-https://github.com/user-attachments/assets/606b9bee-cf21-4714-9040-5507a003b5b2
+https://github.com/user-attachments/assets/40f20abb-6fa4-44f2-8f6f-7b1cbeda6865
 
 - Turns your chapter markers into a YouTube-ready chapter list.
 - Filter by marker colour so your own notes stay out.
@@ -288,7 +288,7 @@ https://github.com/user-attachments/assets/606b9bee-cf21-4714-9040-5507a003b5b2
 
 **Utilities** · Track active editing time by Resolve page, session, and project.
 
-https://github.com/user-attachments/assets/8885dd1d-470a-4dac-8670-d93045798c56
+https://github.com/user-attachments/assets/9dbc8207-7c65-4029-9b44-d8c35f69222e
 
 - Tracks how long you spend on each page: Edit, Color, Fairlight, Deliver.
 - Pauses by itself when you are away and resumes when you are back.

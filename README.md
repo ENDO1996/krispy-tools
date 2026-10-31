@@ -4,14 +4,14 @@
 
 Free, open-source tools that take the repetitive parts out of editing in **DaVinci Resolve Studio**: subtitles and captions in every language, finding changes between two versions, rendering marker ranges, batch timeline jobs and more.
 
-Every tool has a short demo video and real screenshots at **[resolve.krispytools.com](https://resolve.krispytools.com)**.
+Every tool also has its own page with the demo and screenshots at **[resolve.krispytools.com](https://resolve.krispytools.com)**.
 
 
 Made by Kristaps Prūsis, a video editor in Latvia, for his own work, and shared because they might save you time too.
 
 ## All tools at a glance
 
-Click a name for its section further down, with a screenshot, what it does and the download.
+Click a name for its section further down, with a demo video, what it does and the download.
 
 ### Bundles
 
@@ -60,7 +60,7 @@ Click a name for its section further down, with a screenshot, what it does and t
 
 **Bundles** · 5 tools in 1: Caption Titler, SRT Replacer, Font Changer, Template Duplicator and Subtitle Creator in one window with 5 pages.
 
-<img src="docs/images/resolve-text-toolkit.jpg" alt="Resolve Text Toolkit (5 tools in 1) running in DaVinci Resolve Studio">
+https://github.com/user-attachments/assets/5e90a8d5-c96c-4dad-bdf0-897b4af8201b
 
 - Subtitle Creator turns rough Text+ clips into a real subtitle track and an SRT for YouTube.
 - Caption Titler builds styled Text+ captions from subtitles using your own Fusion template, one clip per line.
@@ -76,7 +76,7 @@ Click a name for its section further down, with a screenshot, what it does and t
 
 **Bundles** · 5 tools in 1: Timeline Renamer, Marker Screenshots, Marker Insert, Track Overlay and Batch Export in one window with 5 pages.
 
-<img src="docs/images/resolve-automator.jpg" alt="Resolve Automator (5 tools in 1) running in DaVinci Resolve Studio">
+https://github.com/user-attachments/assets/4fecc945-bb92-4eea-8767-0a92bf00c569
 
 - Timeline Renamer: duplicate or rename many timelines with find and replace.
 - Marker Screenshots: export a still at every marker, named after the marker.
@@ -92,7 +92,7 @@ Click a name for its section further down, with a screenshot, what it does and t
 
 **Text** · Build styled, animated Text+ captions from subtitles using your own title template.
 
-<img src="docs/images/caption-titler.jpg" alt="Caption Titler running in DaVinci Resolve Studio">
+https://github.com/user-attachments/assets/b8baf1c0-d371-4de6-b750-5622b90dab1c
 
 - Styled, animated captions for social, from any subtitle file.
 - Uses your own Fusion title template, so every caption matches your look.
@@ -106,7 +106,7 @@ Click a name for its section further down, with a screenshot, what it does and t
 
 **Text** · Swap your captions to another language from an SRT, keeping style and timing.
 
-<img src="docs/images/srt-replacer.jpg" alt="SRT Replacer running in DaVinci Resolve Studio">
+https://github.com/user-attachments/assets/18c0109a-e733-4f62-addd-41ca577e4c74
 
 - A German, Spanish or Japanese version without retyping a caption.
 - Style, animation and timing stay as they are; only the words change.
@@ -120,7 +120,7 @@ Click a name for its section further down, with a screenshot, what it does and t
 
 **Text** · Change the font on every Text+ clip in one click.
 
-<img src="docs/images/font-changer.jpg" alt="Font Changer running in DaVinci Resolve Studio">
+https://github.com/user-attachments/assets/b4009a56-633d-4c05-8ba1-14ffd3576836
 
 - Every caption to a new font in one click.
 - Fixes the empty boxes you get when a Latin font meets Japanese text.
@@ -134,7 +134,7 @@ Click a name for its section further down, with a screenshot, what it does and t
 
 **Text** · Move every caption onto another title template, keeping text and timing.
 
-<img src="docs/images/template-duplicator.jpg" alt="Template Duplicator running in DaVinci Resolve Studio">
+https://github.com/user-attachments/assets/f948dc68-411f-4d5d-8bfe-cada4c1eac52
 
 - A new look for every caption without retyping or retiming anything.
 - Original clips stay as they are, the new ones go on tracks above.
@@ -148,7 +148,7 @@ Click a name for its section further down, with a screenshot, what it does and t
 
 **Text** · Turn Text+ clips into a real Resolve subtitle track and an SRT file.
 
-<img src="docs/images/subtitle-creator.jpg" alt="Subtitle Creator running in DaVinci Resolve Studio">
+https://github.com/user-attachments/assets/cebdf160-64f7-4bf9-9343-6332f874712a
 
 - Turns the Text+ clips you already typed into a real subtitle track.
 - Saves an SRT file for YouTube, Vimeo or a client.
@@ -162,7 +162,7 @@ Click a name for its section further down, with a screenshot, what it does and t
 
 **Automation** · Compare two video versions and add Resolve markers where visual changes occur.
 
-<img src="docs/images/video-difference-marker.jpg" alt="Video Difference Marker running in DaVinci Resolve Studio">
+https://github.com/user-attachments/assets/daac5b53-de88-495b-b9da-5a5fd5643684
 
 - Stack two versions of a cut and get a marker on every visual change.
 - Finds swapped shots, regrades, added text and logos; identical stretches get no marker.
@@ -176,7 +176,7 @@ Click a name for its section further down, with a screenshot, what it does and t
 
 **Automation** · Turn timeline marker ranges into named Deliver-page render jobs.
 
-<img src="docs/images/marker-range-render-queue.jpg" alt="Marker Range Render Queue running in DaVinci Resolve Studio">
+https://github.com/user-attachments/assets/8f93e20c-411d-4ed2-8508-1d7c03ff2022
 
 - Every duration marker becomes its own render job, named after the marker.
 - Filter by marker colour, keep your render preset and output folder.
@@ -190,7 +190,7 @@ Click a name for its section further down, with a screenshot, what it does and t
 
 **Automation** · Paste review notes from anywhere and turn them into Resolve timeline markers.
 
-<img src="docs/images/comments-to-resolve-markers.jpg" alt="Comments to Resolve Markers running in DaVinci Resolve Studio">
+https://github.com/user-attachments/assets/bb40a57c-90d6-4a7c-89cb-f7cd04e0305d
 
 - Paste notes from email, docs, YouTube, Frame.io or a CSV and get one marker per note.
 - Understands 0:39, [0:39], 00:00:39:12, 1m20s, ranges and comments that wrap onto the next line.
@@ -204,7 +204,7 @@ Click a name for its section further down, with a screenshot, what it does and t
 
 **Automation** · Queue many timelines for render with one preset and one output folder.
 
-<img src="docs/images/batch-export.jpg" alt="Batch Export running in DaVinci Resolve Studio">
+https://github.com/user-attachments/assets/431ff680-1515-4216-af74-d0003a7d2cdd
 
 - Queue dozens of timelines in one click.
 - Uses your own saved render preset, so the settings are always right.
@@ -218,7 +218,7 @@ Click a name for its section further down, with a screenshot, what it does and t
 
 **Automation** · Duplicate or rename many Resolve timelines at once with find and replace.
 
-<img src="docs/images/timeline-renamer.jpg" alt="Timeline Renamer running in DaVinci Resolve Studio">
+https://github.com/user-attachments/assets/12d0d2f0-8fb8-4edc-bebd-cc733e2f6d8f
 
 - Find and replace in the names of many timelines at once.
 - Duplicate mode makes one copy per entry: v2, Client Review, 9x16, Final.
@@ -232,7 +232,7 @@ Click a name for its section further down, with a screenshot, what it does and t
 
 **Automation** · Drop the same clip at every marker: a whoosh, a title, a graphic or a video.
 
-<img src="docs/images/marker-insert.jpg" alt="Marker Insert running in DaVinci Resolve Studio">
+https://github.com/user-attachments/assets/ceb9c797-d910-4f88-83bc-b27cfa438486
 
 - Place a sound effect, title, graphic or video at every marker.
 - A frame offset lets the clip land a few frames before or after each marker.
@@ -246,7 +246,7 @@ Click a name for its section further down, with a screenshot, what it does and t
 
 **Automation** · Cover every clip on a track with a template clip, cut for cut.
 
-<img src="docs/images/track-overlay.jpg" alt="Track Overlay running in DaVinci Resolve Studio">
+https://github.com/user-attachments/assets/5d1aee1f-413e-4368-a41c-ed3c4a79b0b6
 
 - An adjustment clip above every shot, ready for a per-shot grade, zoom or effect.
 - Also works with graphics, video and audio, like a frame overlay or a whoosh on every cut.
@@ -260,7 +260,7 @@ Click a name for its section further down, with a screenshot, what it does and t
 
 **Automation** · Save a still at every marker of one colour, named after the marker.
 
-<img src="docs/images/marker-screenshots.jpg" alt="Marker Screenshots running in DaVinci Resolve Studio">
+https://github.com/user-attachments/assets/cc3f5cb8-8d8d-4765-bc69-d68e824a8748
 
 - One JPEG at every marker, named after the marker.
 - Filter by marker colour so only the frames you want are saved.
@@ -274,7 +274,7 @@ Click a name for its section further down, with a screenshot, what it does and t
 
 **Utilities** · Turn Resolve timeline markers into a ready-to-paste YouTube chapter list.
 
-<img src="docs/images/youtube-chapter-exporter.jpg" alt="YouTube Chapter Exporter running in DaVinci Resolve Studio">
+https://github.com/user-attachments/assets/606b9bee-cf21-4714-9040-5507a003b5b2
 
 - Turns your chapter markers into a YouTube-ready chapter list.
 - Filter by marker colour so your own notes stay out.
@@ -288,7 +288,7 @@ Click a name for its section further down, with a screenshot, what it does and t
 
 **Utilities** · Track active editing time by Resolve page, session, and project.
 
-<img src="docs/images/resolve-page-time-tracker.jpg" alt="Resolve Page Time Tracker running in DaVinci Resolve Studio">
+https://github.com/user-attachments/assets/8885dd1d-470a-4dac-8670-d93045798c56
 
 - Tracks how long you spend on each page: Edit, Color, Fairlight, Deliver.
 - Pauses by itself when you are away and resumes when you are back.

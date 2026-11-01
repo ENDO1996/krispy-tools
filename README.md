@@ -320,7 +320,7 @@ Open an [issue](../../issues) with your Resolve version, your OS and what happen
 
 ## Support the project
 
-Everything here is free, also for paid client work. If a tool saved you time, you can [say thanks with any amount](https://buy.polar.sh/polar_cl_O8uLLTvEdos0GJEM7GCTxUdUN4MGWKijaK9a634Bls4). Never required.
+Everything here is free, also for paid client work. If a tool saved you time, you can say thanks with any amount, by [card](https://buy.polar.sh/polar_cl_O8uLLTvEdos0GJEM7GCTxUdUN4MGWKijaK9a634Bls4) or [PayPal](https://paypal.me/pruusis). Never required.
 
 ## License
 
